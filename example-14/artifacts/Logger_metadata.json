@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "log",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Logger.sol": "Logger"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Logger.sol": {
+			"keccak256": "0xaa2d51f0158f4f4c1b6f148e0a1392bf2e544cd8b6fefd1d19ac642079087dc0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ac0fb2fc595ff1d7f3a76ee5129513a71bcd9c4c9cdb2d1140a512fa05fd154",
+				"dweb:/ipfs/QmaeJoqwFFq2jaMJj3EkgawahNKcrPhh1L1itD12T2jBwc"
+			]
+		}
+	},
+	"version": 1
+}
