@@ -7,7 +7,6 @@ async function main() {
   const Erc = await ethers.getContractFactory('NAShop', signer)
   const erc = await Erc.deploy()
   erc.deploymentTransaction().wait()
-//   await erc.deployed()
   console.log(await erc.getAddress())
   console.log(await erc.token())
 }
